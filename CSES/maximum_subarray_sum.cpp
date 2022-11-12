@@ -11,14 +11,12 @@ int main()
 	for (int k = 0; k < n; k++)
 		cin >> vec[k];
 
-	
 	for (int k = 0; k < n; k++)
 	{
 		sum = max(vec[k],sum + vec[k]);
 		best = max(best,sum);
 	}
 	
-	cout << best << "\n";
-	
+	cout << best << "\n";	
 	return 0;
 }
